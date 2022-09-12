@@ -1,0 +1,130 @@
+body{
+    background-color: white;
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgb(10, 146, 230);
+    height : 6%;
+    color: white;
+    padding-top: 2%;
+    
+    
+}
+.backdrop{
+    height: 400px;
+    width: 400px;
+}
+
+hr{
+    border-color: rgb(10, 146, 230);;
+}
+h3{
+    margin: 30% 2% 0% 2%;
+    display: inline;
+}
+.img1 {
+    width: 300px;
+    float: left;
+    border-radius: 100%;
+
+}
+.container{
+    
+    color: black;
+    margin-top: 5%;
+    text-align: center;
+    padding: 2px 200px;
+}
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 1px 10px;
+    height: 200px;
+  }
+  .table1{
+    text-align: left;
+  }
+  .table {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .space {
+    padding: 10px 20px;
+    text-align: justify !important;
+  }
+  
+  #contact{
+    background-color: rgb(10, 146, 230);
+    height: 60px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-bottom: 2%;
+    text-align: center;
+  }
+  
+  .footer{
+    text-align: center;
+    color: black;
+    margin-left: 10%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  .wrapper {
+    transition:height 2s ease-out;
+    height: 2px;;
+    overflow:hidden;
+}
+
+.dropdown {  
+    position: relative;  
+    display: inline-block;  
+}
+.button {  
+    padding: 5px 30px;  
+    font-size: 15px;
+    background-color: white;  
+}
+.button:hover{
+    background-color: green;
+}
+
+#list-items {  
+    display: none;  
+    position: absolute;  
+    background-color: white;  
+    min-width: 185px;  
+}  
+#list-items a {  
+    display: block;  
+    font-size: 18px;  
+    background-color: #ddd;  
+    color: black;  
+    text-decoration: none;  
+    padding: 10px;  
+}
+#list-item:hover{
+    background-color: green;
+}
+.hove:hover{
+    background-color: rgb(10, 146, 230);
+}
+
+@media only screen and (max-width: 600px){
+    img {
+        width: 200px;
+    }
+
+    .button {  
+        padding: 5px 5px;  }
+  
+    .container{
+        padding: 2px 2px;
+    }
+
+    .space {
+        padding: 0px 10px;}
+}
